@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.example.mixins",
+  "plugin": "com.example.MixinConfig",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_17",
+  "server": [
+  ],
+  "mixins": [
+    "ExampleRebrandMixin",
+    "ExampleVelocityMixin"
+  ]
+}
