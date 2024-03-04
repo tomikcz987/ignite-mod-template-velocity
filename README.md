@@ -12,3 +12,4 @@ Command to launch:
 *File names ignite.jar and velocity.jar can be changed without any problems according to you*
 ## Building mod
 Run Gradle `build` task or open command line and run command `./gradlew build`
+You can find compiled .jar file in build/libs/ and then copy it to mods folder on your Velocity server.
